@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>EDUcare-login</title>
+    <link rel="stylesheet" href="EDUcare-login.css">
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+                <ul class="main-navigation">
+                    <li><a href="CP.html">Competitive Exams</a></li>
+                    <li><a href="CSC.html">CS concepts</a>
+                        <ul>
+                            <li><a href="CSC.html">Data Structures</a></li>
+                            <li><a href="CSC.html">DBMS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="CSL.html">CS languages</a>
+                        <ul>
+                            <li><a href="CSL.html">c/c++</a></li>
+                            <li><a href="CSL.html">python</a></li>
+                            <li><a href="CSL.html">Java</a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+          </div>
+            
+            <li class="logo">EDUcare</li>
+            <li class="search-icon">
+                <input type="search" placeholder="search">
+                <span class="fas fa-search"></span>
+            </li>
+        </ul>
+        
+    </nav>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
